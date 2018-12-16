@@ -34,7 +34,6 @@ with open('bufferOverflow.txt', 'a') as f:
   print >> f , "Try" , args.integers
 
 recv=rem.recvuntil('Congrats1!', drop = False)
-print recv
 with open('bufferOverflow.txt', 'a') as f:
   print >> f , "Success" , args.integers
 
